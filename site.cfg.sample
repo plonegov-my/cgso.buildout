@@ -1,0 +1,11 @@
+[site]
+
+effective-user = 
+
+instance-host = 127.0.0.1
+instance-port = 8080
+
+instance2-host = 127.0.0.1
+instance2-port = 8081
+
+zeoserver-address = 127.0.0.1:8100
