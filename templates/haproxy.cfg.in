@@ -23,5 +23,5 @@ backend zopes
         balance roundrobin
         cookie serverid insert indirect nocache
         server z1 ${instance:http-address} cookie z1 check inter 30s rise 2 fall 4 maxconn 20
-        server z2 %{instance2:http-address} cookie z2 check inter 30s rise 2 fall 4 maxconn 20
+        server z2 ${instance2:http-address} cookie z2 check inter 30s rise 2 fall 4 maxconn 20
         
