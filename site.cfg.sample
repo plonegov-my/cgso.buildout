@@ -9,3 +9,11 @@ instance2-host = 127.0.0.1
 instance2-port = 8081
 
 zeoserver-address = 127.0.0.1:8100
+
+haproxy-host = 127.0.0.1
+haproxy-port = 8080
+
+haproxy-user = ${site:effective-user}
+haproxy-group = haproxy
+
+zodb-cache-size = 10000
